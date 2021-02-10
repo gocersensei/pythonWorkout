@@ -8,7 +8,7 @@ def ubbi_dubbi(word):
             # much memory. For short strings,
             # it’s not a big deal. But for long
             # loops and large strings, it’s a
-            # bad idea.
+            # bad idea..
         else:
             output.append(letter)
     return ''.join(output)
